@@ -27,7 +27,7 @@ jobs:
 
       - name: Move files
         run: |
-          mv ./div ./docs
+          mv ./dist ./docs
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
