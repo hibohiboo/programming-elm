@@ -17,7 +17,7 @@ jobs:
           node-version: '14'
 
       - name: modules Setup
-        run: npm ci
+        run: npm i
         working-directory: .
 
       - name: trancepile
