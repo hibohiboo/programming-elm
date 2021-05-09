@@ -1,13 +1,7 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path')
 
 module.exports = {
-  ignorePatterns: [
-    '!next.config.js',
-    '!.eslintrc.js',
-    '!.babelrc.js',
-    'public',
-  ],
+  ignorePatterns: ['.eslintrc.js', '.babelrc.js', 'webpack.config.js', 'public'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -34,7 +28,9 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'commma-dangle': 'off',
   },
-  'import/resolver': {
-    webpack: { config: path.join(__dirname, '/webpack.config.js') },
+  settings: {
+    'import/resolver': {
+      webpack: { config: path.join(__dirname, '/webpack.config.js') },
+    },
   },
 }

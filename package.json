@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack",
     "prod": "webpack",
-    "serve": "webpack  serve"
+    "serve": "webpack  serve",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
