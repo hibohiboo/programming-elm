@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    // "noEmit": true, // babelを使ってトランスパイルする場合に必要
+    // "isolatedModules": true, // 必ずexportが必要。babelを使ってトランスパイルする場合に必要
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+  },
+  "exclude": ["node_modules", "__tests__"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}

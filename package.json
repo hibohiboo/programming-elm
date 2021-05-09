@@ -1,0 +1,39 @@
+{
+  "name": "eiseiteien",
+  "version": "0.0.0",
+  "description": "elmのサンプル",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack",
+    "prod": "webpack",
+    "serve": "webpack  serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@ssh.dev.azure.com:v3/hibohiboo/%E8%A1%9B%E6%98%9F%E5%BA%AD%E5%9C%92/aws-elm"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@elm-tooling/elm-language-server": "^2.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "css-loader": "^5.2.4",
+    "elm": "^0.19.1-5",
+    "elm-format": "^0.8.5",
+    "elm-hot-webpack-loader": "^1.1.8",
+    "elm-webpack-loader": "^8.0.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-webpack": "^0.13.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "html-webpack-plugin": "^5.3.1",
+    "prettier": "^2.2.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.1.2",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^4.0.0-beta.3"
+  }
+}
